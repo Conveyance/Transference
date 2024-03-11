@@ -4,7 +4,7 @@ For clarity 1.0.0.0 represents full stability of all key features integral to th
 
 ## Goals
 
-A decentralized, out of git tree secrets manager focused on security, stability, first class interoperability support. Transferance goal is to focus on secure memory to memory secret transfer for approved applications via tpm or yubikey.
+A decentralized, out of git tree secrets manager focused on security, stability, first class interoperability support. Transference goal is to focus on secure memory to memory secret transfer for approved applications via tpm or yubikey.
 
 ## Feature list
 
@@ -23,12 +23,12 @@ A decentralized, out of git tree secrets manager focused on security, stability,
 - [ ] Secret templating engine
 - [ ] ERP Runbook Support
 - [ ] Environment variable injection
-- [ ] API shim for aplications that dont have first party support for Transferance
+- [ ] API shim for aplications that dont have first party support for Transference
 
 ## EE Features
 - [ ] Windows Support
 - [ ] SAML, Oauth, SSO, AD/DS
-- [ ] Interactability via webUI
+- [ ] Interactability via WebUI using WebAssembly
 - [ ] Embedded Secret Generator hardware(Source avilable upon purchase with contract)
 - [ ] Embedded Secret source of truth hardware(Source avilable upon purchase with contract)
 - [ ] Secrecy Violation Detection to detect unencypted secrets in source code and on disk
