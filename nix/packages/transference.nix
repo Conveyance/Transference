@@ -12,9 +12,9 @@
 rustPlatform.buildRustPackage rec {
   pname = "transference";
   version = "0.0.1";
-  cargoLock.lockFile = ../Cargo.lock;
+  cargoLock.lockFile = ../../Cargo.lock;
   # cargoHash = "";
-  src = lib.cleanSource ../.;
+  src = lib.cleanSource ../../.;
   cargoBuildCommand = "cargo build --release --package ${pname}";
   # nativeBuildInputs = [
   #   cmake
