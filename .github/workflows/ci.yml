@@ -18,7 +18,7 @@ jobs:
       - uses: DeterminateSystems/magic-nix-cache-action@main
       - uses: DeterminateSystems/flake-checker-action@main
       - name: Run nix checks
-        run: nix flake ckeck .
+        run: nix flake check .
       - name: Build Transference
         run: nix build .
       - name: Build user docs
