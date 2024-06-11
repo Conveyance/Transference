@@ -23,7 +23,7 @@ A decentralized, out of git tree secrets manager focused on security, stability,
 - [ ] Secret templating engine
 - [ ] ERP Runbook Support
 - [ ] Environment variable injection
-- [ ] API shim for aplications that dont have first party support for Transference
+- [ ] API shim for aplications that dont have first party support for Transference[See SOPS process env](https://github.com/getsops/sops?tab=readme-ov-file#219passing-secrets-to-other-processes)
 
 ## EE Features
 - [ ] Windows Support
