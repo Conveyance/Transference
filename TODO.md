@@ -13,7 +13,6 @@ A decentralized, out of git tree secrets manager focused on security, stability,
 ### Generation
 - [ ] Software Based Secret Generation(use A 100k word list to generate a 12 word pass-phrase that is passed through [PBKDF2](https://github.com/RustCrypto/password-hashes/tree/master/pbkdf2)-[HMAC](https://github.com/RustCrypto/MACs/tree/master/hmac)-[SHA256](https://github.com/RustCrypto/hashes/tree/master/sha2) with 600,000 passes wrapped in [balloon_hash](https://github.com/RustCrypto/password-hashes/tree/master/balloon-hash) making the returned value time and space hard)
 - [ ] Secret Lifetimes with autoroll option
-- [ ] Secret templating engine
 
 ### Automated ERP
 - [ ] Active Tamper Detection Alert Emergency Response Protocol (logging, notification, policy enforcement)
