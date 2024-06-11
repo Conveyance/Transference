@@ -1,7 +1,7 @@
 {pkgs ? import <nixpkgs> {}}:
 pkgs.mkShell {
   # Get dependencies from the main package
-  inputsFrom = [(pkgs.callPackage ./package.nix {})];
+  inputsFrom = [(pkgs.callPackage ./packages/transference.nix {})];
   RUST_SRC_PATH = "${pkgs.rustPlatform.rustLibSrc}";
   # Additional tooling
   # LD_LIBRARY_PATH = "${pkgs.lib.makeLibraryPath runtimeLibs}";
